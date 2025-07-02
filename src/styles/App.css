@@ -1,16 +1,38 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
+/* styles.css */
 
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  padding: 2rem;
 }
 
-.bg-pink{
-	background-color:pink;
+.App {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  color: #555;
 }
