@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/App.css"; // Optional styling file
 
 const App = () => {
@@ -55,6 +55,13 @@ const App = () => {
   const currentCity = currentState.cities[cityIndex];
   const currentLandmark = currentCity.landmarks[landmarkIndex];
 
+
+//   useEffect(() => {
+//   const count = document.querySelectorAll('select, button').length;
+//   console.log("Rendered selects + button:", count); // should log 4
+// }, []);
+
+
   // Handlers with value = name logic
   const handleStateChange = (e) => {
     const newIndex = data.findIndex(state => state.name === e.target.value);
@@ -73,6 +80,9 @@ const App = () => {
     const newIndex = currentCity.landmarks.findIndex(landmark => landmark.name === e.target.value);
     setLandmarkIndex(newIndex);
   };
+
+  console.log("State:", currentState.name, "| City:", currentCity.name, "| Landmark:", currentLandmark.name);
+
 
   return (
     <div className="App">
