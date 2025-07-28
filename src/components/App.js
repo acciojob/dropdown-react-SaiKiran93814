@@ -23,13 +23,14 @@ const App = () => {
           { name: "Rajwada Palace", description: "Historic palace of the Holkars." },
         ],
       },
-      {
-        name: "Mhow",
-        description: "Military town near Indore.",
-        landmarks: [
-          { name: "Patalpani Waterfall", description: "A beautiful natural waterfall." },
-        ],
-      },
+     {
+  name: "Mhow",
+  description: "Military town near Indore.",
+  landmarks: [
+    { name: "Patalpani Waterfall", description: "A beautiful natural waterfall." }
+  ]
+}
+
     ],
   },
   {
@@ -99,6 +100,8 @@ const App = () => {
           </option>
         ))}
       </select>
+
+       <button id="submit">Submit</button>
 
       {/* Selected Details */}
      <div>
