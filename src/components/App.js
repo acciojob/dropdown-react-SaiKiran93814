@@ -101,16 +101,17 @@ const App = () => {
       </select>
 
       {/* Selected Details */}
-      <div>
-        <h2 id="state-name">{currentState.name}</h2>
-        <p id="state-description">{currentState.description}</p>
+     <div>
+  <div id="state-name">{currentState.name}</div>
+  <div id="state-description">{currentState.description}</div>
 
-        <h2 id="city-name">{currentCity.name}</h2>
-        <p id="city-description">{currentCity.description}</p>
+  <div id="city-name">{currentCity.name}</div>
+  <div id="city-description">{currentCity.description}</div>
 
-        <h2 id="landmark-name">{currentLandmark.name}</h2>
-        <p id="landmark-description">{currentLandmark.description}</p>
-      </div>
+  <div id="landmark-name">{currentLandmark.name}</div>
+  <div id="landmark-description">{currentLandmark.description}</div>
+</div>
+
     </div>
   );
 };
