@@ -4,53 +4,48 @@ import "../styles/App.css";
 
 const App = () => {
   const data = [
-    {
-      name: "Madhya Pradesh",
-      description: "Heart of India, known for its heritage sites.",
-      cities: [
-        {
-          name: "Bhopal",
-          description: "The capital city of Madhya Pradesh.",
-          landmarks: [
-            {
-              name: "Upper Lake",
-              description: "A large lake known for its scenic beauty.",
-            },
-            {
-              name: "Van Vihar",
-              description: "A national park located in Bhopal.",
-            },
-          ],
-        },
-        {
-          name: "Indore",
-          description: "Commercial capital of the state.",
-          landmarks: [
-            {
-              name: "Rajwada Palace",
-              description: "Historic palace of the Holkars.",
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "Maharashtra",
-      description: "Known for Mumbai and Bollywood.",
-      cities: [
-        {
-          name: "Mumbai",
-          description: "The financial capital of India.",
-          landmarks: [
-            {
-              name: "Gateway of India",
-              description: "Iconic arch-monument built during the 20th century.",
-            },
-          ],
-        },
-      ],
-    },
-  ];
+  {
+    name: "Madhya Pradesh",
+    description: "Heart of India, known for its heritage sites.",
+    cities: [
+      {
+        name: "Bhopal",
+        description: "The capital city of Madhya Pradesh.",
+        landmarks: [
+          { name: "Upper Lake", description: "A large lake known for its scenic beauty." },
+          { name: "Van Vihar", description: "A national park located in Bhopal." },
+        ],
+      },
+      {
+        name: "Indore",
+        description: "Commercial capital of the state.",
+        landmarks: [
+          { name: "Rajwada Palace", description: "Historic palace of the Holkars." },
+        ],
+      },
+      {
+        name: "Mhow",
+        description: "Military town near Indore.",
+        landmarks: [
+          { name: "Patalpani Waterfall", description: "A beautiful natural waterfall." },
+        ],
+      },
+    ],
+  },
+  {
+    name: "Maharashtra",
+    description: "Known for Mumbai and Bollywood.",
+    cities: [
+      {
+        name: "Mumbai",
+        description: "The financial capital of India.",
+        landmarks: [
+          { name: "Gateway of India", description: "Iconic arch-monument built during the 20th century." },
+        ],
+      },
+    ],
+  },
+];
 
   // State hooks
   const [stateIndex, setStateIndex] = useState(0);
